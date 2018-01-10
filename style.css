@@ -25,6 +25,7 @@ body {
     background: linear-gradient(grey, black);
     border-radius: 20px;
 }
+
 .nav a:hover {
     background: linear-gradient(#eeeeee, grey);
     color: #111111;
@@ -46,6 +47,7 @@ body {
     justify-content: space-around;
     background: linear-gradient(to bottom, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
 }
+
 .links a {
     color: white;
     background: linear-gradient(grey, black);
@@ -85,6 +87,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
+
 .side a {
     height: 10%;
 }
@@ -108,7 +111,7 @@ body {
 .wrap {
     width: 100%;
     background: linear-gradient(to bottom, rgba(96, 108, 136, 1) 0%, rgba(63, 76, 107, 1) 100%);
-}    
+}
 
 .social {
     width: 30%;
@@ -125,7 +128,7 @@ body {
     color: white;
     height: 130px;
     float: left;
-    padding-top:20px;
+    padding-top: 20px;
 
 }
 
@@ -169,12 +172,6 @@ a:active {
     text-decoration: none;
 }
 
-
-.map-wrap {
-    width: 100%;
-    height:200px;
-}
-
 .mapa {
     width: 600px;
     height: 450px;
@@ -184,10 +181,10 @@ a:active {
 }
 
 .dane {
-    width: (100% - 600px); 
+    width: calc(100% - 600px);
     height: 450px;
-    font-size: 20px;
-    float:left;
+    font-size: 2em;
+    float: left;
     background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
 }
 
