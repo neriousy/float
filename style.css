@@ -142,10 +142,10 @@ body {
 }
 
 .icon {
-    height: 50%;
+    height: 40%;
     width: 100%;
     color: white;
-    font-size: 40px;
+    font-size: 3em;
     display: block;
 
 }
