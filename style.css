@@ -176,7 +176,7 @@ a:active {
 }
 
 .mapa {
-    width: 40%;
+    width: 600%;
     height: 450px;
     float: left;
     background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
@@ -184,7 +184,7 @@ a:active {
 }
 
 .dane {
-    width: 60%;
+    width: (100% - 600px); 
     height: 450px;
     font-size: 20px;
     float: left;
